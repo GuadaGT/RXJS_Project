@@ -12,7 +12,7 @@ export class InicioComponent {
     subscriber.next(2);
     subscriber.next(3);
   });
-
+  datos: any;
 
   constructor()
   {
@@ -22,6 +22,7 @@ export class InicioComponent {
   {
     this.observable$.subscribe({
       next:value => {
+        this.datos = value;
         console.log(value);
       },
       error: err => {
