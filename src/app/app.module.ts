@@ -8,6 +8,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { FriosComponent } from './components/frios/frios.component';
 import { CalientesComponent } from './components/calientes/calientes.component';
 import {HttpClientModule} from "@angular/common/http";
+import { OperadoresComponent } from './components/operadores/operadores.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {HttpClientModule} from "@angular/common/http";
     NavbarComponent,
     InicioComponent,
     FriosComponent,
-    CalientesComponent
+    CalientesComponent,
+    OperadoresComponent
   ],
   imports: [
     BrowserModule,
