@@ -9,6 +9,7 @@ import { FriosComponent } from './components/frios/frios.component';
 import { CalientesComponent } from './components/calientes/calientes.component';
 import {HttpClientModule} from "@angular/common/http";
 import { OperadoresComponent } from './components/operadores/operadores.component';
+import { SwitchMapComponent } from './components/switch-map/switch-map.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { OperadoresComponent } from './components/operadores/operadores.componen
     InicioComponent,
     FriosComponent,
     CalientesComponent,
-    OperadoresComponent
+    OperadoresComponent,
+    SwitchMapComponent
   ],
   imports: [
     BrowserModule,
