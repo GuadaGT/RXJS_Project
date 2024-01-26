@@ -17,4 +17,10 @@ export class BehaviorSubjectComponent
       this.myBehaviorSubject.next('Holiiiii!');
       this.service.addElement(1);
     }
+
+  addCarritoPrice(data: {nombre:string, precio:number})
+  {
+    this.service.addElement(data.precio);
+  }
+
 }

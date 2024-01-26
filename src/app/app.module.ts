@@ -13,6 +13,8 @@ import { SwitchMapComponent } from './components/switch-map/switch-map.component
 import { SubjectComponent } from './components/subject/subject.component';
 import { BehaviorSubjectComponent } from './components/behavior-subject/behavior-subject.component';
 import { OrdenSuperiorComponent } from './components/orden-superior/orden-superior.component';
+import { ForkJoinComponent } from './components/fork-join/fork-join.component';
+import { ListaCompraComponent } from './components/lista-compra/lista-compra.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { OrdenSuperiorComponent } from './components/orden-superior/orden-superi
     SwitchMapComponent,
     SubjectComponent,
     BehaviorSubjectComponent,
-    OrdenSuperiorComponent
+    OrdenSuperiorComponent,
+    ForkJoinComponent,
+    ListaCompraComponent
   ],
   imports: [
     BrowserModule,
