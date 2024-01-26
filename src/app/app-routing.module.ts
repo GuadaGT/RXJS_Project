@@ -7,6 +7,7 @@ import {OperadoresComponent} from "./components/operadores/operadores.component"
 import {SwitchMapComponent} from "./components/switch-map/switch-map.component";
 import {SubjectComponent} from "./components/subject/subject.component";
 import {OrdenSuperiorComponent} from "./components/orden-superior/orden-superior.component";
+import {BehaviorSubjectComponent} from "./components/behavior-subject/behavior-subject.component";
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'subject',
     component: SubjectComponent
+  },
+  {
+    path: 'bahaviour-subject',
+    component: BehaviorSubjectComponent
   },
 ];
 
