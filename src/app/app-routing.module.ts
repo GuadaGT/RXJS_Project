@@ -5,6 +5,8 @@ import {FriosComponent} from "./components/frios/frios.component";
 import {CalientesComponent} from "./components/calientes/calientes.component";
 import {OperadoresComponent} from "./components/operadores/operadores.component";
 import {SwitchMapComponent} from "./components/switch-map/switch-map.component";
+import {SubjectComponent} from "./components/subject/subject.component";
+import {OrdenSuperiorComponent} from "./components/orden-superior/orden-superior.component";
 
 const routes: Routes = [
   {
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: 'switchmap',
     component: SwitchMapComponent
+  },
+  {
+    path: 'orden-superior',
+    component: OrdenSuperiorComponent
+  },
+  {
+    path: 'subject',
+    component: SubjectComponent
   },
 ];
 

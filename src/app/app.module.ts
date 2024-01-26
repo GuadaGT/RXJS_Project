@@ -10,6 +10,9 @@ import { CalientesComponent } from './components/calientes/calientes.component';
 import {HttpClientModule} from "@angular/common/http";
 import { OperadoresComponent } from './components/operadores/operadores.component';
 import { SwitchMapComponent } from './components/switch-map/switch-map.component';
+import { SubjectComponent } from './components/subject/subject.component';
+import { BehaviorSubjectComponent } from './components/behavior-subject/behavior-subject.component';
+import { OrdenSuperiorComponent } from './components/orden-superior/orden-superior.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SwitchMapComponent } from './components/switch-map/switch-map.component
     FriosComponent,
     CalientesComponent,
     OperadoresComponent,
-    SwitchMapComponent
+    SwitchMapComponent,
+    SubjectComponent,
+    BehaviorSubjectComponent,
+    OrdenSuperiorComponent
   ],
   imports: [
     BrowserModule,
